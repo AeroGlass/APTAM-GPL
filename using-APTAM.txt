@@ -1,0 +1,25 @@
+Install App:
+-Copy APTAM.apk to your device and install it.
+-Start the app once and exit!
+-Copy cfg files for your specific device (especially camera.cfg) to "Android\data\at.jku.ptam\files" (overwrite existing files). See the calibration folder to learn how to calibrate your camera.
+
+
+Initialize the map for tracking:
+-(optional) Press the "Vol-"-button on the phone shortly to fix camera focus and exposure.
+-Press the "Vol+"-button on the phone shortly. (Depending on your device you may also use the "Spacebar" menu button on the screen, the hardware menu button on the phone or the hardware camera button on your phone).
+-Move your device (not only rotate) to the right.
+-Yellow lines should appear on the screen.
+-After some cm of movement press the "Vol+" (or other "Spacebar" button) button again.
+-Red/blue/yellow dots should appear on the screen now.
+-Expand the map by looking towards a new area (still having some red/blue/yellow dots in the view) and move your device around.
+
+
+On-Screen Options:
+-Sensors On/Off: Use the smartphones inertial sensors to improve tracking. Enable before initialization! Experimental! Might not work on all devices.
+-Lock Map On/Off: Enable/disable further map expansion.
+Other options are probably self explaining. 
+
+Context Menu Options: (long press on the screen to open the context menu)
+-(Disable) Calibration: Enable/disable the calibration mode. APTAM has to be restarted for the setting to take effect!
+-(Disable) Exposure Lock: Enable/disable exposure locking when "Vol-" is pressed.
+-White Balance Mode: Choose white balance mode.

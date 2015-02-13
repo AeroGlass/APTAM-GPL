@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<images>
+testdata/im-0.bmp
+testdata/im-1.bmp
+testdata/im-2.bmp
+testdata/im-3.bmp
+testdata/im-4.bmp
+testdata/im-5.bmp
+testdata/im-6.bmp
+testdata/im-7.bmp
+testdata/im-8.bmp
+testdata/im-9.bmp
+testdata/im-10.bmp
+testdata/im-11.bmp
+testdata/im-12.bmp
+</images>
+</opencv_storage>

@@ -1,0 +1,5 @@
+Generally the files in this project are distributed under GPLv3.
+
+Please see the individual project files and folders for original authorship and license information of the used libraries and source code. Thanks to all authors for making their work open source!
+
+We would further like to thank the creators of https://github.com/jparty/PTAM for initial ideas and the build structure.

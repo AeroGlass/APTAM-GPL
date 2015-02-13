@@ -1,0 +1,4 @@
+cd opencvcalib
+cameracalibration.exe -w 11 -h 7 testdata/imagelist.txt -su
+cameracalibration.exe -w 11 -h 7 BT200/imagelist.txt -su -o ../BT200.yml
+cameracalibration.exe -w 11 -h 7 S3neo/imagelist.txt -su -o ../S3neo.yml

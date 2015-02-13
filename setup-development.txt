@@ -1,0 +1,24 @@
+Setup development environment:
+-Install: Eclipse + Android SDK + Android NDK
+-Please look online for setup instructions.
+
+Tested development environment:
+-NDK: android-ndk-r9d
+-Eclipse-ADT-Bundle: adt-bundle-windows-x86_64-20140321
+-Built for Android 4.3
+
+Setup APTAM:
+-Import the APTAM project to the Eclipse workspace.
+-Add native support to project (maybe delete automatically added source files).
+-Run as Android Application.
+
+Hints:
+-Building lapack takes a very long time therefore I prepared some prebuild libraries for it, if they don't work change jni/Android.mk to build lapack from source.
+-If you get "Problems" in eclipse but compilation works turn off "Code Analysis" (preferences->C/C++) for syntax and sematic errors.
+-Additionally to the Android log further information can be found in coutlog.txt in the app directory (Android\data\at.jku.ptam\files).
+-NDK sometimes does not recognize changes in header files! So you have to rebuild the project to apply those changes!
+
+Tested devices:
+-Sony Xperia Z2
+-Samsung Galaxy S3 (Neo)
+-Epson BT200

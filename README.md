@@ -10,4 +10,4 @@ Changes and Improvements:
 - Experimental support for using the devices inertial sensors to improve tracking accuracy.
 - Several minor tweaks to improve speed and stability on Android devices.
 - Optional support for NCC during patch matching and further keyframe detectors.
-- Saving and loading of the map points and keyframes.
+- Saving and loading of the map points and key frames.

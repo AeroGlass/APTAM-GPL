@@ -9,5 +9,5 @@ Changes and Improvements:
 - OpenGL ES 2 support for rendering with fast, shader-based YUV to RGB conversion.
 - Experimental support for using the devices inertial sensors to improve tracking accuracy.
 - Several minor tweaks to improve speed and stability on Android devices.
-- Optional support for NCC during patch matching and further keyframe detectors.
+- Optional support for NCC during patch matching and further key-frame detectors.
 - Saving and loading of the map points and key frames.

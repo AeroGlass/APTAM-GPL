@@ -8,7 +8,6 @@
 /config.have_bits
 /config.log
 /config.status
-/cvd/config.h
 /debug
 /autom4te.cache
 *.o

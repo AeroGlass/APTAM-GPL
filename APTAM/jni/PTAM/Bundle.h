@@ -25,7 +25,6 @@
 // then reads results back to update the map.
 
 #include "ATANCamera.h"
-#include "Config.h"
 #include <TooN/TooN.h>
 #include <TooN/se3.h>
 #include <vector>

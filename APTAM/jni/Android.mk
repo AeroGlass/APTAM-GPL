@@ -7,7 +7,7 @@ LOCAL_CFLAGS += -std=c++11
 LOCAL_CPPFLAGS += -std=c++11
 LOCAL_MODULE    := PTAM
 
-PTAM_PATH := ./PTAM/
+PTAM_PATH := ./PTAM
 LOCAL_SRC_FILES += $(PTAM_PATH)/opengles2helper.cc                      \
 $(PTAM_PATH)/ARDriver.cc                      \
 $(PTAM_PATH)/GLWindow2.cc                       \
@@ -35,7 +35,7 @@ $(PTAM_PATH)/threadpool.cc \
 $(PTAM_PATH)/ptam-main.cc \
 $(PTAM_PATH)/VideoSource_Android.cc \
 $(PTAM_PATH)/MapSerialization.cc
- 
+
 LOCAL_STATIC_LIBRARIES += TooN
 LOCAL_STATIC_LIBRARIES += cpufeatures
 LOCAL_STATIC_LIBRARIES += cvd
@@ -61,24 +61,24 @@ include $(BUILD_SHARED_LIBRARY)
 ifeq (true,true) 
     include $(CLEAR_VARS)
     LOCAL_MODULE := lapack
-    LOCAL_SRC_FILES := $(LOCAL_PATH)/../../prebuild-libs/$(TARGET_ARCH_ABI)/liblapack.a
-    LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../ndk-modules/lapack/jni/clapack/INCLUDE
+    LOCAL_SRC_FILES := ../prebuild-libs/$(TARGET_ARCH_ABI)/liblapack.a
+    LOCAL_EXPORT_C_INCLUDES := ../ndk-modules/lapack/jni/clapack/INCLUDE
     LOCAL_STATIC_LIBRARIES := tmglib clapack blas f2c
     include $(PREBUILT_STATIC_LIBRARY)
     
     include $(CLEAR_VARS)
     LOCAL_MODULE := clapack
-    LOCAL_SRC_FILES := $(LOCAL_PATH)/../../prebuild-libs/$(TARGET_ARCH_ABI)/libclapack.a
+    LOCAL_SRC_FILES := ../prebuild-libs/$(TARGET_ARCH_ABI)/libclapack.a
     include $(PREBUILT_STATIC_LIBRARY)
     
     include $(CLEAR_VARS)
     LOCAL_MODULE := blas
-    LOCAL_SRC_FILES := $(LOCAL_PATH)/../../prebuild-libs/$(TARGET_ARCH_ABI)/libblas.a
+    LOCAL_SRC_FILES := ../prebuild-libs/$(TARGET_ARCH_ABI)/libblas.a
     include $(PREBUILT_STATIC_LIBRARY)
     
     include $(CLEAR_VARS)
     LOCAL_MODULE := f2c
-    LOCAL_SRC_FILES := $(LOCAL_PATH)/../../prebuild-libs/$(TARGET_ARCH_ABI)/libf2c.a
+    LOCAL_SRC_FILES := ../prebuild-libs/$(TARGET_ARCH_ABI)/libf2c.a
     include $(PREBUILT_STATIC_LIBRARY)
     #tmglib clapack blas f2c
 else
